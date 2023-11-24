@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+   
+   
+    background-color: gainsboro;
+   
+}
+.header{
+    width: 100%;
+    height: 80px;
+    margin:25px;
+}
+.header .emlak{
+    display: inline-block;
+    margin-left: 5px;
+    margin-top: 5px;
+    color:rgb(91, 21, 21)
+}
+.header ul{
+    float: right;
+    margin-right: 20px;
+    padding-right: 10px;
+}
+.header ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 8px;
+    line-height: 40px;
+}
+.header ul li a{
+    color: dimgrey;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 6px 13px;
+    transition: .5s;
+}
+.header ul li a.active,
+.header ul li a:hover{
+    color: rgb(91, 21, 21);
+}
+.section{
+    margin:25px;
+}
+.section .img{
+    float: left;
+    padding-right:5%;
+}
+.section .hakkimizda{
+    
+   padding-top: 15%;
+   height: 650px;
+}
+.section h2{
+    font-size: 2em;
+    padding-bottom: 30px;
+}
+.section p{
+    line-height: 45px;
+    font-size: 1.5em;
+    padding-bottom: 10px;
+    color:dimgray;
+}
+.section a{
+    text-decoration: none;
+    color:whitesmoke;
+   
+    
+    
+    
+}
+.section button{
+    height: 30px;
+    width:150px;
+    font-size:1em;
+    font-weight: bold;
+    color: whitesmoke;
+    background-color: black;
+    border: solid 1px rgb(91,21,21);
+  transition: .5s;
+}
+.section button:hover{
+    background-color: rgb(91,21,21);
+}
+.article{
+    height: 100px;
+    margin:25px;
+    padding-bottom: 10%;
+}
+.article .section1{
+    text-align: center;
+    font-size: 1.5em;
+    padding-bottom: 25px;
+}
+.article .section2{
+    float: left;
+    padding-right: 15px;
+    width:20%
+    
+}
+.article .section2 h3{
+    text-align: center;
+    padding-bottom: 10px;
+    color: rgb(91, 21, 21);
+}
+
+.article .section3{
+    position: absolute;
+    left: 43%;
+    width: 20%;
+}
+.article .section3 h3{
+    position: relative;
+    left:15%;
+    padding-bottom: 10px;
+    color: rgb(91, 21, 21);
+}
+.article .section4{
+    float:right;
+    width: 20%;
+}
+.article .section4 h3{
+    text-align: center;
+    padding-bottom: 10px;
+    color: rgb(91,21,21);
+
+}
+.article2{
+    
+    padding-top:25px;
+    background-color: rgb(184, 176, 176);
+
+}
+.article2 .img{
+    margin:25px;
+    display: flex;
+}
+
+
+.article2 h2{text-align: center;
+padding-bottom: 30px;}
+.article2 .section1{
+    float:left;
+    position: relative;
+    padding-right: 15%;
+}
+.article2 .section1 a{
+    position: absolute;
+    top:50%;
+    left: 25%;
+    text-decoration: none;
+    color:rgb(91, 21, 21);
+    font-size: 2em;
+}
+.article2 .section2{
+    
+    position: relative;
+    padding-right: 15%;
+    
+}
+.article2 .section2 a{
+    position: absolute;
+    top:50%;
+    left: 27%;
+    text-decoration: none;
+    color:rgb(91, 21, 21);
+    font-size: 2em;
+}
+.article2 .section3{
+  position: relative;
+}
+.article2 .section3 a{
+    position: absolute;
+    top:50%;
+    left: 47%;
+    text-decoration: none;
+    color:rgb(91, 21, 21);
+    font-size: 2em;
+}
+.article2 .img a:hover{
+    font-size:3em;
+    
+}
+.article2 button{
+    
+    height: 30px;
+    width:150px;
+    font-size:1em;
+    margin:25px;
+    padding-top:10px;
+    
+    
+    color: whitesmoke;
+    background-color: rgb(184, 176, 176);
+    border: solid 1px rgb(184, 176, 176);
+  transition: .5s;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.row ul{
+    list-style: none;
+}
+.footer{
+    background-color: black;
+    padding:0 15px;
+}
+.col{
+    width: 25%;
+    padding: 0 15px;
+    padding-bottom: 15px;
+}
+.col h4{
+    font-size: 18px;
+    color: white;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight:500;
+    position: relative;
+
+}
+.col h4::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom:-10px;
+    background-color: rgb(91, 21, 21);
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+.col ul li::not(:last-child){
+    margin-bottom: 10px;
+}
+.col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+.col ul li a:hover{
+    color: white;
+    padding-left: 8px;
+}
+.col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255,255,255,0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: white;
+    transition: all 0.5 ease;
+}
+
+.col .social-links a:hover{
+    color: #24262b;
+    background-color: white;
+}
